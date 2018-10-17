@@ -1,5 +1,9 @@
 pragma solidity ^0.4.16;    // Versão Compilador v0.4.16+commit.d7661dd9 - Runs (Optimiser):200 - Optimization Enabled:	No
-interface tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData) public; }
+
+interface tokenRecipient { 
+    function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData) public;
+}
+
 contract Winco {
     // Public variables of the token
     string public name;
@@ -110,6 +114,7 @@ contract Winco {
         }
     }
 
+
     /**
      * Destroy tokens
      *
@@ -124,6 +129,7 @@ contract Winco {
         Burn(msg.sender, _value);
         return true;
     }
+
 
     /**
      * Destroy tokens from other account

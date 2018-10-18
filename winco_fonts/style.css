@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'winco';
+    src: url('fonts/winco.eot');
+    src: url('fonts/winco.eot#iefix') format('embedded-opentype'), url('fonts/winco.ttf') format('truetype'), url('fonts/winco.woff') format('woff'), url('fonts/winco.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    display: inline-block;
+    font: normal normal normal 14px/1 'winco';
+    font-size: smaller;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-winco:before {
+    /* content: "\e900"; */
+    content: "\e900";
+}

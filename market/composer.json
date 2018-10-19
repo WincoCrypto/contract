@@ -12,11 +12,12 @@
         }
     ],
     "require": {
-        "php": "^7.1.3"
+        "php": "^7.1.3",
+        "guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
         "psr-0": {
-            "HelloWorld": "src/"
+            "StockExchange": "src/"
         }
     },
     "minimum-stability": "dev",

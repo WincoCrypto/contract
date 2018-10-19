@@ -1,7 +1,7 @@
-<?php 
+<?php
 
-require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
+require_once __DIR__ . '/../vendor/autoload.php';
 
-use HelloWorld\SayHello;
+use StockExchange\StockExchange;
 
-echo SayHello::world();
+echo StockExchange::getVolume() . "\n";

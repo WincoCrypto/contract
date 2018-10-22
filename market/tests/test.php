@@ -6,5 +6,5 @@ use Winco\Market\StockExchange\Collector as StockExchange;
 
 $exchange = new StockExchange();
 
-echo $exchange->getVolume() . "\n";
+echo $exchange->getVolume() . "\n\n";
 

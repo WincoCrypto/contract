@@ -16,8 +16,8 @@
         "guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
-        "psr-0": {
-            "StockExchange": "src/"
+        "psr-4": {
+            "Winco\\Market\\StockExchange\\": "src/StockExchange"
         }
     },
     "minimum-stability": "dev",

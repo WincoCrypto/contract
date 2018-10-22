@@ -2,6 +2,9 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use StockExchange\StockExchange;
+use Winco\Market\StockExchange\Collector as StockExchange;
 
-echo StockExchange::getVolume() . "\n";
+$exchange = new StockExchange();
+
+echo $exchange->getVolume() . "\n";
+

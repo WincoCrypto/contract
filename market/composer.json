@@ -20,6 +20,9 @@
             "Winco\\Market\\StockExchange\\": "src/StockExchange"
         }
     },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }

@@ -17,6 +17,7 @@
     },
     "autoload": {
         "psr-4": {
+            "Winco\\Market\\FourteenBit\\": "src/FourteenBit",
             "Winco\\Market\\StockExchange\\": "src/StockExchange"
         }
     },

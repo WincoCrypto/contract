@@ -14,27 +14,27 @@ class StockExchangeTest extends TestCase
 
     public function testGetBid()
     {
-        $this->assertEquals('double', gettype(self::$stock->getBid()));
+        $this->assertTrue(is_numeric(self::$stock->getBid()));
     }
 
     public function testGetAsk()
     {
-        $this->assertEquals('double', gettype(self::$stock->getAsk()));
+        $this->assertTrue(is_numeric(self::$stock->getAsk()));
     }
 
     public function testGetLast()
     {
-        $this->assertEquals('double', gettype(self::$stock->getLast()));
+        $this->assertTrue(is_numeric(self::$stock->getLast()));
     }
 
     public function testGetVariation()
     {
-        $this->assertEquals('double', gettype(self::$stock->getVariation()));
+        $this->assertTrue(is_numeric(self::$stock->getVariation()));
     }
 
     public function testGetVolume()
     {
-        $this->assertEquals('double', gettype(self::$stock->getVolume()));
+        $this->assertTrue(is_numeric(self::$stock->getVolume()));
     }
 
 }

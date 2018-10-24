@@ -1,6 +1,6 @@
 <?php
 
-namespace Winco\Services\SouthXchange;
+namespace WincoCrypto\Services\SouthXchange;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;

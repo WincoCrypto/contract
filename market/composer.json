@@ -1,5 +1,5 @@
 {
-    "name": "winco/market",
+    "name": "wincocrypto/market",
     "description": "A PHP component that provides information about Winco currency",
     "type": "library",
     "require-dev": {
@@ -7,7 +7,7 @@
     },
     "authors": [
         {
-            "name": "WincoCrypt",
+            "name": "WincoCrypto",
             "email": "support@winco.io"
         }
     ],
@@ -17,10 +17,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Winco\\": "src",
-            "Winco\\Market\\": "src",
-            "Winco\\Services\\FourteenBit\\": "src/Services/FourteenBit",
-            "Winco\\Services\\SouthXchange\\": "src/Services/SouthXchange"
+            "WincoCrypto\\": "src",
+            "WincoCrypto\\Market\\": "src",
+            "WincoCrypto\\Services\\FourteenBit\\": "src/Services/FourteenBit",
+            "WincoCrypto\\Services\\SouthXchange\\": "src/Services/SouthXchange"
         }
     },
     "scripts": {

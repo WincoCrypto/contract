@@ -1,6 +1,6 @@
 <?php
 
-namespace Winco;
+namespace WincoCrypto;
 
 class Exchanges
 {

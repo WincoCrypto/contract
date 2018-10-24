@@ -1,8 +1,8 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Winco\Exchanges as Exchanges;
-use Winco\Market\Summary as Summary;
+use WincoCrypto\Exchanges as Exchanges;
+use WincoCrypto\Market\Summary as Summary;
 
 class SummaryTest extends TestCase
 {

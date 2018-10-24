@@ -1,10 +1,10 @@
 <?php
 
-namespace Winco\Market;
+namespace WincoCrypto\Market;
 
-use Winco\Exchanges as Exchanges;
-use Winco\Services\FourteenBit\Collector as FourteenBit;
-use Winco\Services\SouthXchange\Collector as SouthXchange;
+use WincoCrypto\Exchanges as Exchanges;
+use WincoCrypto\Services\FourteenBit\Collector as FourteenBit;
+use WincoCrypto\Services\SouthXchange\Collector as SouthXchange;
 
 class Summary
 {

@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Winco\Services\FourteenBit\Collector as FourteenBit;
+use WincoCrypto\Services\FourteenBit\Collector as FourteenBit;
 
 class FourteenBitTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Winco\Exchanges;
+namespace Winco;
 
 class Exchanges
 {

@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Winco\Services\StockExchange\Collector as StockExchange;
+use Winco\Services\SouthXchange\Collector as StockExchange;
 
 class StockExchangeTest extends TestCase
 {

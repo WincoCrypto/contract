@@ -17,8 +17,8 @@
     },
     "autoload": {
         "psr-4": {
+            "Winco\\": "src",
             "Winco\\Market\\": "src",
-            "Winco\\Exchanges\\": "src",
             "Winco\\Services\\FourteenBit\\": "src/Services/FourteenBit",
             "Winco\\Services\\SouthXchange\\": "src/Services/SouthXchange"
         }

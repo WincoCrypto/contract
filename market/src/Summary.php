@@ -2,7 +2,7 @@
 
 namespace Winco\Market;
 
-use Winco\Exchanges\Exchanges as Exchanges;
+use Winco\Exchanges as Exchanges;
 use Winco\Services\FourteenBit\Collector as FourteenBit;
 use Winco\Services\SouthXchange\Collector as SouthXchange;
 

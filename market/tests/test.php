@@ -2,13 +2,17 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use Winco\Market\FourteenBit\Collector as Fourteen;
+use Winco\Market\Summary;
 
-$c = new Fourteen();
+$c = new Summary();
 
-echo $c->getBid() . "\n";
-echo $c->getAsk() . "\n";
-echo $c->getLast() . "\n";
-echo $c->getVariation() . "\n";
-echo $c->getVolume() . "\n";
+$data = [
+    'bid' => $c->getBid(),
+    'ask' => $c->getAsk(),
+    'last' => $c->getLast(),
+    'variation' => $c->getVariation(),
+    'volume' => $c->getVolume()
+];
+
+print_r($data);
 echo "\n";

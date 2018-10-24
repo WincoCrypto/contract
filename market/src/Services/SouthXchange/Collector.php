@@ -1,6 +1,6 @@
 <?php
 
-namespace Winco\Market\StockExchange;
+namespace Winco\Services\SouthXchange;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;

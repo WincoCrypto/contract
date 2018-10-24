@@ -1,6 +1,6 @@
 <?php
 
-namespace Winco\Market\FourteenBit;
+namespace Winco\Services\FourteenBit;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;

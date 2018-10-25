@@ -94,6 +94,12 @@ use WincoCrypto\Services\SouthXchange\Collector as SouthXchange;
 $south = new SouthXchange();
 ```
 
+## Comming Soon 
+
+- Simex
+- XBit
+
+
 ## Contact 
 
 If you have any questions or improvement proposals, please e-mail Winco´s support team at support@winco.io

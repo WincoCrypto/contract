@@ -1,15 +1,15 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use WincoCrypto\Services\SouthXchange\Collector as StockExchange;
+use WincoCrypto\Services\SouthXchange\Collector as SouthXchange;
 
-class StockExchangeTest extends TestCase
+class SouthXchangeTest extends TestCase
 {
     protected static $stock;
 
     public static function setUpBeforeClass()
     {
-        self::$stock = new StockExchange();
+        self::$stock = new SouthXchange();
     }
 
     public function testGetBid()

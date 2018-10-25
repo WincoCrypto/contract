@@ -2,7 +2,7 @@
 <phpunit bootstrap="./vendor/autoload.php" colors="true" convertErrorsToExceptions="true" convertNoticesToExceptions="true" convertWarningsToExceptions="true" stopOnFailure="false">
     <testsuites>
         <testsuite name="stock">
-            <directory suffix=".php">./tests/StockExchange/</directory>
+            <directory suffix=".php">./tests/SouthXchange/</directory>
         </testsuite>
         <testsuite name="fourteen">
             <directory suffix=".php">./tests/FourteenBit/</directory>

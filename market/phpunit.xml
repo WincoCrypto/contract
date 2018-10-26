@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit bootstrap="./vendor/autoload.php" colors="true" convertErrorsToExceptions="true" convertNoticesToExceptions="true" convertWarningsToExceptions="true" stopOnFailure="false">
     <testsuites>
-        <testsuite name="stock">
+        <testsuite name="simex">
+            <directory suffix=".php">./tests/Simex/</directory>
+        </testsuite>
+        <testsuite name="south">
             <directory suffix=".php">./tests/SouthXchange/</directory>
         </testsuite>
         <testsuite name="fourteen">

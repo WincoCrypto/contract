@@ -19,6 +19,8 @@
         "psr-4": {
             "WincoCrypto\\": "src",
             "WincoCrypto\\Market\\": "src",
+            "WincoCrypto\\Helpers\\": "src/Helpers",
+            "WincoCrypto\\Services\\Simex\\": "src/Services/Simex",
             "WincoCrypto\\Services\\FourteenBit\\": "src/Services/FourteenBit",
             "WincoCrypto\\Services\\SouthXchange\\": "src/Services/SouthXchange"
         }

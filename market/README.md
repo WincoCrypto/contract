@@ -17,7 +17,7 @@ composer require wincocrypto/market
 
 ```
 <?php
-    require_once __DIR__ . ’/vendor/autoload.php’;
+    require_once __DIR__ . '/vendor/autoload.php';
     use WincoCrypto\Market\Summary as Summary;
     $summary = new Summary();
     $volume = $summary->getVolume();
